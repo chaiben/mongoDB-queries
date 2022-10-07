@@ -12,9 +12,9 @@ cd docker
 docker compose up
 ```
 2. Descargar y importar el archivo de restaurants a la base de datos
-```
+
 [restaurants.json](./restaurants.json)
-```
+
 3. Comando para ejecutar el archivo desde la terminal:
 ```
 mongosh mongodb://root:example@localhost:27017/ queries.js
